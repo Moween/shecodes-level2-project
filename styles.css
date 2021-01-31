@@ -1,0 +1,293 @@
+html {
+  margin: 0;
+}
+
+body {
+  background-color: #1c2230;
+  margin: 0;
+  box-sizing: border-box;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-family: 'Open Sans';
+  position: relative;
+}
+/***Page-wrapper wraps the main-content**/
+#page-wrapper {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.fot1 {
+  font-family: 'Raleway', Courier, monospace;
+}
+
+/*Header CSS Rules*/
+#header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+#brand-logo-con {
+  max-width: 100%;
+}
+
+#brand-logo-img {
+  width: 75px;
+  margin: 14px 0;
+}
+
+#nav {
+  width: 60%;
+}
+
+.navbar {
+  padding-left: 0;
+  overflow: hidden;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding:  3px;
+  color: white;
+  display: inline-block;
+}
+
+#pg-main {
+  margin: 0;
+}
+
+.ma-sec {
+  margin-top: 50px;
+  text-align: center;  
+}
+
+.img-box {
+  max-width: 100%;
+  height: 200px;
+}
+
+.img {
+  width: 100%;
+  height: 200px;
+}
+
+#h1 {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+.prgh {
+  line-height: 1.5;
+  word-spacing: .08;
+  font-size: 1.25rem;
+
+}
+
+.btn {
+  padding: 10px;
+  width: 70%;
+  border-width: 2px;
+  border-style: none;
+  border-radius: 20px;
+  background-color: hsl(198, 60%, 50%);
+  color: white;
+  font-size: 18px;
+}
+
+.artic,
+footer {
+  margin-top: 100px;
+} 
+
+#secdi-02 {
+  text-align: left;
+  line-height: 1;
+}
+
+#secdi-02 a {
+  color: hsl(198, 60%, 50%);
+}
+
+/*The Quote Image CSS rules*/
+#quo-imgbox {
+  max-width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 0;
+}
+
+#quo-img {
+  width: 30px;
+  height: 20px;
+}
+
+#fy-con {
+  position: relative;
+}
+
+#arico01 {
+  position: absolute;
+  top: -1px;
+}
+
+.test-artic {
+  border: 1px solid hsl(219, 30%, 18%);
+  border-radius: 2px;
+  background-color: hsl(219, 30%, 18%);
+  margin: 10px 15px;
+  padding: 10px;
+  
+}
+
+.test-artic:first-of-type {
+  margin-top: 0;
+}
+
+.test-artic div:first-child div > p {
+  margin-top: 0;
+  padding: 3px;
+}
+
+.pro-pics-box {
+  float: left;
+  max-width: 100%;
+  margin-right: 10px;
+  overflow: auto;
+}
+
+.pro-pics {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.nfg-03{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+#calt0-act {
+  margin-top: 300px;
+}
+
+/**Call-to-action Section Rules*/
+.mail-signup {
+  background-color: hsl(219, 30%, 18%);
+  border: 1px solid hsl(219, 30%, 18%);
+  border-radius: 10px;
+  padding: 20px 0 40px;
+  position: absolute;
+  bottom: 600px;
+  right: 20px;
+  left: 20px;
+}
+
+.mail-signup p {
+  padding: 0 10px;
+  word-spacing: initial;
+  font-size: initial;
+}
+
+.mail-signup .btn {
+  font-family: 'Raleway', Courier, monospace;
+  width: 80%;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #000;
+  font-weight: 400;
+}
+
+/* Footer CSS Rules */
+#pg-footer {
+  background-color: hsl(216, 53%, 9%);
+  width: 100%;
+}
+
+#ftdi-01 {
+  margin: 15px 15px 0;
+  padding: 200px 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.svlo-01 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#prgh {
+  padding: 0 3px 3px;
+  font-size: 1rem;
+}
+
+.svlo-01 p {
+  width: 90%;
+  margin-top: 0;
+}
+
+.svlo-01:nth-of-type(2),
+.svlo-01:last-of-type {
+  margin-top: 5px;
+}
+
+/* Footer Links CSS Rules */
+.ft-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ft-list-item {
+  margin: 10px 0;
+}
+
+.ft-link {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  padding: 5px 0;
+  margin-top: 10px;
+}
+
+/* Social-Icons CSS Rules */
+
+.so-ic {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.so-ic > li {
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 70%;
+  padding: 3px;
+  margin: 0 5px;
+}
+
+.so-ic .ft-link {
+  padding: 3px;
+  font-size: 12px;
+}
