@@ -71,8 +71,7 @@ body {
 }
 
 #hd-01 {
-  width: 70%;
-  margin: 0 auto;
+  width: auto;
   line-height: 1.6;
   padding: 10px;
 }
