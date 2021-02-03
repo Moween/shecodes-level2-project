@@ -65,9 +65,9 @@ body {
 }
 
 .img {
-  height: suto;
+  height: auto;
   max-width: 100%;
-  width: 100%;
+  width: 400px;
 }
 
 #h1 {
