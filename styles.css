@@ -169,11 +169,13 @@ footer {
   margin-left: 10px;
 }
 
-#calt0-act {
-  margin-top: 300px;
-}
 
 /**Call-to-action Section Rules*/
+
+#calt0-act {
+margin-top: 300px;
+}
+
 .mail-signup {
   background-color: hsl(219, 30%, 18%);
   border: 1px solid hsl(219, 30%, 18%);
@@ -188,7 +190,7 @@ footer {
 .mail-signup p {
   padding: 0 10px;
   word-spacing: initial;
-  font-size: initial;
+  font-size: 0.875rem;
 }
 
 .mail-signup .btn {
@@ -223,17 +225,35 @@ footer {
   justify-content: space-between;
 }
 
+#ft-brand-logo {
+  max-width: 100%;
+  width: 100px;
+  height: auto;
+}
+
+#ftdi-02 {
+  display: flex;
+  margin: 10px 0 0;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
 
 .svlo-01 {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
+  width: 100%;
+
 }
 
 #prgh {
+  /* font-size: 1rem; */
+  font-size: 1.05rem;
+  text-align: justify;
   padding: 0 3px 3px;
-  font-size: 1rem;
 }
+
 
 .svlo-01 p {
   width: 90%;
@@ -281,5 +301,7 @@ footer {
 
 .so-ic .ft-link {
   padding: 3px;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
+
+
