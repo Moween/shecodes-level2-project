@@ -113,15 +113,15 @@ footer {
 
 /*The Quote Image CSS rules*/
 #quo-imgbox {
-  max-width: 100%;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 0;
 }
 
 #quo-img {
+  max-width: 100%;
   width: 30px;
-  height: 20px;
+  height: auto;
 }
 
 #fy-con {
