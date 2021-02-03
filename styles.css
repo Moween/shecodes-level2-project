@@ -77,9 +77,12 @@ body {
 }
 
 .prgh {
+  font-size: 1.15rem;
   line-height: 1.5;
+  margin: 10px auto 3%;
+  padding: 3px; 
+  width: auto;
   word-spacing: .08;
-  font-size: 1.25rem;
 
 }
 
