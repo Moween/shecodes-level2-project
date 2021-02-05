@@ -251,7 +251,8 @@ margin-top: 300px;
 }
 
 #ftdi-02 {
-  display: block
+  display: block;
+  margin-top: 30px;
 }
 
 
@@ -259,7 +260,7 @@ margin-top: 300px;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
 
 }
@@ -294,13 +295,18 @@ margin-top: 300px;
 
 
 .svlo-01 p {
-  width: 70%;
+  width: 80%;
   margin-top: 0;
+  margin-bottom: 0;
+}
+
+#ftdi-02 > div:first-child > .svlo-01:first-of-type {
+  align-items: flex-start;
 }
 
 .svlo-01:nth-of-type(2),
 .svlo-01:last-of-type {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 /* Footer Links CSS Rules */
@@ -567,7 +573,6 @@ margin-top: 300px;
   }
 
   #ftdi-02 {
-    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -591,11 +596,6 @@ margin-top: 300px;
     align-items: center;
     margin-top: 10px;
     width: 100%;
-  }
-
-  #ftdi-02 > div:first-child > .svlo-01:first-of-type {
-    align-items: flex-start;
-    justify-content: space-evenly;
   }
 
   #prgh {
