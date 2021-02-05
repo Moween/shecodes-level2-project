@@ -188,7 +188,6 @@ footer {
 
 #calt0-act {
 margin-top: 300px;
-margin-bottom: 400px;
 }
 
 .mail-signup {
@@ -535,6 +534,7 @@ margin-bottom: 400px;
   /**Call-to-action Section Rules*/
   #calt0-act {
     margin-top: 300px;
+    margin-bottom: 400px;
   }
 
   .mail-signup {
